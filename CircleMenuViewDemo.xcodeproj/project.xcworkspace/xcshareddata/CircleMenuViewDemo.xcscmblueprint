@@ -1,20 +1,20 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F30ECA337EE1325E1984C34A41E889D9E72E19EC",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BEF3BBC0763C0E23F49B483A5E2E6D75EA0C1860",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "F30ECA337EE1325E1984C34A41E889D9E72E19EC" : 0,
+    "BEF3BBC0763C0E23F49B483A5E2E6D75EA0C1860" : 0,
     "B1B0D573B1D068F90491D02C3879C90A3246AD6F" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0E1EEFA6-10F3-45C5-A2C7-5DCAB9170330",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "F30ECA337EE1325E1984C34A41E889D9E72E19EC" : "HYCircleMenuView\/",
-    "B1B0D573B1D068F90491D02C3879C90A3246AD6F" : "HYCircleMenuView\/CircleMenuViewDemo\/HYCircleMenuVieww\/"
+    "BEF3BBC0763C0E23F49B483A5E2E6D75EA0C1860" : "CircleMenuViewDemo\/",
+    "B1B0D573B1D068F90491D02C3879C90A3246AD6F" : "CircleMenuViewDemo\/HYCircleMenuView\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "CircleMenuViewDemo",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CircleMenuViewDemo\/CircleMenuViewDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CircleMenuViewDemo.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yshbyy\/HYCircleMenuView.git",
@@ -22,9 +22,9 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B1B0D573B1D068F90491D02C3879C90A3246AD6F"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yshbyy\/HYCircleMenuView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yshbyy\/CircleMenuViewDemo.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F30ECA337EE1325E1984C34A41E889D9E72E19EC"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BEF3BBC0763C0E23F49B483A5E2E6D75EA0C1860"
     }
   ]
 }
