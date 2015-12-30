@@ -207,7 +207,7 @@
     //移除数据
     [_items removeAllObjects];
     //重新加载视图
-    [self setupViews];
+    [self setUp];
 }
 
 #pragma mark - Property Setters
