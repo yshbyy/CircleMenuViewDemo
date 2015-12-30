@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F30ECA337EE1325E1984C34A41E889D9E72E19EC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F30ECA337EE1325E1984C34A41E889D9E72E19EC" : 0,
+    "B1B0D573B1D068F90491D02C3879C90A3246AD6F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0E1EEFA6-10F3-45C5-A2C7-5DCAB9170330",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F30ECA337EE1325E1984C34A41E889D9E72E19EC" : "HYCircleMenuView\/",
+    "B1B0D573B1D068F90491D02C3879C90A3246AD6F" : "HYCircleMenuView\/CircleMenuViewDemo\/HYCircleMenuVieww\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CircleMenuViewDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CircleMenuViewDemo\/CircleMenuViewDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yshbyy\/HYCircleMenuView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B1B0D573B1D068F90491D02C3879C90A3246AD6F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yshbyy\/HYCircleMenuView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F30ECA337EE1325E1984C34A41E889D9E72E19EC"
+    }
+  ]
+}
