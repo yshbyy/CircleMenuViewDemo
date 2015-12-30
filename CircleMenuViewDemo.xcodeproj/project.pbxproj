@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77B009DC1C33F0D000706C10 /* HYCircleMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B009D51C33F0D000706C10 /* HYCircleMenuItem.m */; };
+		77B009DD1C33F0D000706C10 /* HYCircleMenuItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B009D71C33F0D000706C10 /* HYCircleMenuItemButton.m */; };
+		77B009DE1C33F0D000706C10 /* HYCircleMenuMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B009D91C33F0D000706C10 /* HYCircleMenuMainButton.m */; };
+		77B009DF1C33F0D000706C10 /* HYCircleMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B009DB1C33F0D000706C10 /* HYCircleMenuView.m */; };
 		77C4FC501C33C038007E80C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C4FC4F1C33C038007E80C8 /* main.m */; };
 		77C4FC531C33C038007E80C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C4FC521C33C038007E80C8 /* AppDelegate.m */; };
 		77C4FC561C33C038007E80C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C4FC551C33C038007E80C8 /* ViewController.m */; };
@@ -35,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77B009D31C33F0D000706C10 /* HYCircleMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircleMenu.h; sourceTree = "<group>"; };
+		77B009D41C33F0D000706C10 /* HYCircleMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircleMenuItem.h; sourceTree = "<group>"; };
+		77B009D51C33F0D000706C10 /* HYCircleMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCircleMenuItem.m; sourceTree = "<group>"; };
+		77B009D61C33F0D000706C10 /* HYCircleMenuItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircleMenuItemButton.h; sourceTree = "<group>"; };
+		77B009D71C33F0D000706C10 /* HYCircleMenuItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCircleMenuItemButton.m; sourceTree = "<group>"; };
+		77B009D81C33F0D000706C10 /* HYCircleMenuMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircleMenuMainButton.h; sourceTree = "<group>"; };
+		77B009D91C33F0D000706C10 /* HYCircleMenuMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCircleMenuMainButton.m; sourceTree = "<group>"; };
+		77B009DA1C33F0D000706C10 /* HYCircleMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircleMenuView.h; sourceTree = "<group>"; };
+		77B009DB1C33F0D000706C10 /* HYCircleMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCircleMenuView.m; sourceTree = "<group>"; };
 		77C4FC4B1C33C038007E80C8 /* CircleMenuViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleMenuViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C4FC4F1C33C038007E80C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77C4FC511C33C038007E80C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,9 +91,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77B009D21C33F0D000706C10 /* HYCircleMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				77B009D31C33F0D000706C10 /* HYCircleMenu.h */,
+				77B009D41C33F0D000706C10 /* HYCircleMenuItem.h */,
+				77B009D51C33F0D000706C10 /* HYCircleMenuItem.m */,
+				77B009D61C33F0D000706C10 /* HYCircleMenuItemButton.h */,
+				77B009D71C33F0D000706C10 /* HYCircleMenuItemButton.m */,
+				77B009D81C33F0D000706C10 /* HYCircleMenuMainButton.h */,
+				77B009D91C33F0D000706C10 /* HYCircleMenuMainButton.m */,
+				77B009DA1C33F0D000706C10 /* HYCircleMenuView.h */,
+				77B009DB1C33F0D000706C10 /* HYCircleMenuView.m */,
+			);
+			path = HYCircleMenuView;
+			sourceTree = "<group>";
+		};
 		77C4FC421C33C038007E80C8 = {
 			isa = PBXGroup;
 			children = (
+				77B009D21C33F0D000706C10 /* HYCircleMenuView */,
 				77C4FC4D1C33C038007E80C8 /* CircleMenuViewDemo */,
 				77C4FC671C33C038007E80C8 /* CircleMenuViewDemoTests */,
 				77C4FC721C33C038007E80C8 /* CircleMenuViewDemoUITests */,
@@ -270,7 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77B009DF1C33F0D000706C10 /* HYCircleMenuView.m in Sources */,
+				77B009DC1C33F0D000706C10 /* HYCircleMenuItem.m in Sources */,
 				77C4FC561C33C038007E80C8 /* ViewController.m in Sources */,
+				77B009DE1C33F0D000706C10 /* HYCircleMenuMainButton.m in Sources */,
+				77B009DD1C33F0D000706C10 /* HYCircleMenuItemButton.m in Sources */,
 				77C4FC531C33C038007E80C8 /* AppDelegate.m in Sources */,
 				77C4FC501C33C038007E80C8 /* main.m in Sources */,
 			);
