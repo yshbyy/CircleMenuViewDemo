@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77B00A211C33F9BF00706C10 /* HYCircleMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B00A1A1C33F9BF00706C10 /* HYCircleMenuItem.m */; };
-		77B00A221C33F9BF00706C10 /* HYCircleMenuItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B00A1C1C33F9BF00706C10 /* HYCircleMenuItemButton.m */; };
-		77B00A231C33F9BF00706C10 /* HYCircleMenuMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B00A1E1C33F9BF00706C10 /* HYCircleMenuMainButton.m */; };
-		77B00A241C33F9BF00706C10 /* HYCircleMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B00A201C33F9BF00706C10 /* HYCircleMenuView.m */; };
 		77C4FC501C33C038007E80C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C4FC4F1C33C038007E80C8 /* main.m */; };
 		77C4FC531C33C038007E80C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C4FC521C33C038007E80C8 /* AppDelegate.m */; };
 		77C4FC561C33C038007E80C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C4FC551C33C038007E80C8 /* ViewController.m */; };
@@ -19,6 +15,10 @@
 		77C4FC5E1C33C038007E80C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C4FC5C1C33C038007E80C8 /* LaunchScreen.storyboard */; };
 		77C4FC691C33C038007E80C8 /* CircleMenuViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C4FC681C33C038007E80C8 /* CircleMenuViewDemoTests.m */; };
 		77C4FC741C33C038007E80C8 /* CircleMenuViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C4FC731C33C038007E80C8 /* CircleMenuViewDemoUITests.m */; };
+		77E6B21A1D26629700BBE7EF /* HYCircleMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E6B2131D26629700BBE7EF /* HYCircleMenuItem.m */; };
+		77E6B21B1D26629700BBE7EF /* HYCircleMenuItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E6B2151D26629700BBE7EF /* HYCircleMenuItemButton.m */; };
+		77E6B21C1D26629700BBE7EF /* HYCircleMenuMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E6B2171D26629700BBE7EF /* HYCircleMenuMainButton.m */; };
+		77E6B21D1D26629700BBE7EF /* HYCircleMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E6B2191D26629700BBE7EF /* HYCircleMenuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,15 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		77B00A181C33F9BF00706C10 /* HYCircleMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircleMenu.h; sourceTree = "<group>"; };
-		77B00A191C33F9BF00706C10 /* HYCircleMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircleMenuItem.h; sourceTree = "<group>"; };
-		77B00A1A1C33F9BF00706C10 /* HYCircleMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCircleMenuItem.m; sourceTree = "<group>"; };
-		77B00A1B1C33F9BF00706C10 /* HYCircleMenuItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircleMenuItemButton.h; sourceTree = "<group>"; };
-		77B00A1C1C33F9BF00706C10 /* HYCircleMenuItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCircleMenuItemButton.m; sourceTree = "<group>"; };
-		77B00A1D1C33F9BF00706C10 /* HYCircleMenuMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircleMenuMainButton.h; sourceTree = "<group>"; };
-		77B00A1E1C33F9BF00706C10 /* HYCircleMenuMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCircleMenuMainButton.m; sourceTree = "<group>"; };
-		77B00A1F1C33F9BF00706C10 /* HYCircleMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircleMenuView.h; sourceTree = "<group>"; };
-		77B00A201C33F9BF00706C10 /* HYCircleMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCircleMenuView.m; sourceTree = "<group>"; };
 		77C4FC4B1C33C038007E80C8 /* CircleMenuViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleMenuViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C4FC4F1C33C038007E80C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77C4FC511C33C038007E80C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +55,15 @@
 		77C4FC6F1C33C038007E80C8 /* CircleMenuViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleMenuViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C4FC731C33C038007E80C8 /* CircleMenuViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleMenuViewDemoUITests.m; sourceTree = "<group>"; };
 		77C4FC751C33C038007E80C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E6B2111D26629700BBE7EF /* HYCircleMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircleMenu.h; sourceTree = "<group>"; };
+		77E6B2121D26629700BBE7EF /* HYCircleMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircleMenuItem.h; sourceTree = "<group>"; };
+		77E6B2131D26629700BBE7EF /* HYCircleMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCircleMenuItem.m; sourceTree = "<group>"; };
+		77E6B2141D26629700BBE7EF /* HYCircleMenuItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircleMenuItemButton.h; sourceTree = "<group>"; };
+		77E6B2151D26629700BBE7EF /* HYCircleMenuItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCircleMenuItemButton.m; sourceTree = "<group>"; };
+		77E6B2161D26629700BBE7EF /* HYCircleMenuMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircleMenuMainButton.h; sourceTree = "<group>"; };
+		77E6B2171D26629700BBE7EF /* HYCircleMenuMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCircleMenuMainButton.m; sourceTree = "<group>"; };
+		77E6B2181D26629700BBE7EF /* HYCircleMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircleMenuView.h; sourceTree = "<group>"; };
+		77E6B2191D26629700BBE7EF /* HYCircleMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCircleMenuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,15 +94,6 @@
 		77C4FC421C33C038007E80C8 = {
 			isa = PBXGroup;
 			children = (
-				77B00A181C33F9BF00706C10 /* HYCircleMenu.h */,
-				77B00A191C33F9BF00706C10 /* HYCircleMenuItem.h */,
-				77B00A1A1C33F9BF00706C10 /* HYCircleMenuItem.m */,
-				77B00A1B1C33F9BF00706C10 /* HYCircleMenuItemButton.h */,
-				77B00A1C1C33F9BF00706C10 /* HYCircleMenuItemButton.m */,
-				77B00A1D1C33F9BF00706C10 /* HYCircleMenuMainButton.h */,
-				77B00A1E1C33F9BF00706C10 /* HYCircleMenuMainButton.m */,
-				77B00A1F1C33F9BF00706C10 /* HYCircleMenuView.h */,
-				77B00A201C33F9BF00706C10 /* HYCircleMenuView.m */,
 				77C4FC4D1C33C038007E80C8 /* CircleMenuViewDemo */,
 				77C4FC671C33C038007E80C8 /* CircleMenuViewDemoTests */,
 				77C4FC721C33C038007E80C8 /* CircleMenuViewDemoUITests */,
@@ -123,6 +114,7 @@
 		77C4FC4D1C33C038007E80C8 /* CircleMenuViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				77E6B2101D26629700BBE7EF /* HYCircleMenuView */,
 				77C4FC511C33C038007E80C8 /* AppDelegate.h */,
 				77C4FC521C33C038007E80C8 /* AppDelegate.m */,
 				77C4FC541C33C038007E80C8 /* ViewController.h */,
@@ -161,6 +153,22 @@
 			);
 			path = CircleMenuViewDemoUITests;
 			sourceTree = "<group>";
+		};
+		77E6B2101D26629700BBE7EF /* HYCircleMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				77E6B2111D26629700BBE7EF /* HYCircleMenu.h */,
+				77E6B2121D26629700BBE7EF /* HYCircleMenuItem.h */,
+				77E6B2131D26629700BBE7EF /* HYCircleMenuItem.m */,
+				77E6B2141D26629700BBE7EF /* HYCircleMenuItemButton.h */,
+				77E6B2151D26629700BBE7EF /* HYCircleMenuItemButton.m */,
+				77E6B2161D26629700BBE7EF /* HYCircleMenuMainButton.h */,
+				77E6B2171D26629700BBE7EF /* HYCircleMenuMainButton.m */,
+				77E6B2181D26629700BBE7EF /* HYCircleMenuView.h */,
+				77E6B2191D26629700BBE7EF /* HYCircleMenuView.m */,
+			);
+			path = HYCircleMenuView;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -292,11 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77B00A241C33F9BF00706C10 /* HYCircleMenuView.m in Sources */,
-				77B00A211C33F9BF00706C10 /* HYCircleMenuItem.m in Sources */,
+				77E6B21D1D26629700BBE7EF /* HYCircleMenuView.m in Sources */,
 				77C4FC561C33C038007E80C8 /* ViewController.m in Sources */,
-				77B00A231C33F9BF00706C10 /* HYCircleMenuMainButton.m in Sources */,
-				77B00A221C33F9BF00706C10 /* HYCircleMenuItemButton.m in Sources */,
+				77E6B21C1D26629700BBE7EF /* HYCircleMenuMainButton.m in Sources */,
+				77E6B21B1D26629700BBE7EF /* HYCircleMenuItemButton.m in Sources */,
+				77E6B21A1D26629700BBE7EF /* HYCircleMenuItem.m in Sources */,
 				77C4FC531C33C038007E80C8 /* AppDelegate.m in Sources */,
 				77C4FC501C33C038007E80C8 /* main.m in Sources */,
 			);
@@ -440,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CircleMenuViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yshbyy.CircleMenuViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CircleMenuViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yshbyy.CircleMenuViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
